@@ -6,6 +6,17 @@ export class Robot {
         this.y = y;
         this.energy = energy;
     }
+    decrementEnergy() {
+        this.energy = this.energy--;
+    }
+    loseHp(lostHp) {
+        if (this.hp - lostHp < 0) {
+            this.hp = 0;
+        }
+        else {
+            this.hp = this.hp - lostHp;
+        }
+    }
     getId() {
         return this.id;
     }

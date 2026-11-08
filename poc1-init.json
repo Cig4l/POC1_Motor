@@ -1,8 +1,0 @@
-{
-  "world": { "w": 100, "h": 100 },
-  "move_speed": 2.0,
-  "robots": [
-    { "id": "A", "x": 40.0, "y": 50.0, "heading": 0.0, "energy": 20 },
-    { "id": "B", "x": 60.0, "y": 50.0, "heading": 3.14, "energy": 20 }
-  ]
-}

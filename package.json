@@ -1,0 +1,13 @@
+{
+    "name": "mon-projet",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/main.js",
+        "dev": "tsx main.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^26.6.6"
+    }
+}
